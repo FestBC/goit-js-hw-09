@@ -1,0 +1,81 @@
+.feedback-form {
+    margin: 8px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-top: 16px;
+  
+    font-family: inherit;
+    font-weight: 500;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    color: #fff;
+  
+    cursor: pointer;
+  
+    background: #4e75ff;
+  
+    transition: background 0.125s ease-in-out;
+}
+
+button:hover,
+button:focus {
+  background-color: #6c8cff;
+}
+
+input,
+textarea,
+label:not(:first-child) {
+    margin-top: 8px;
+}
+
+input,
+textarea {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+
+    padding: 8px 16px;
+}
+
+textarea {
+    height: 80px;
+
+    resize: none;
+}
+
+input,
+textarea {
+    font-family: inherit;
+    background-color: transparent;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+  
+    transition: border-color 0.125s ease-in-out;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    outline: none;
+    border-color: #000;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: currentColor;
+}
+
+.feedback-form,
+.feedback-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
